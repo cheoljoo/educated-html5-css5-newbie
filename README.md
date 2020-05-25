@@ -4,6 +4,72 @@
 - 실행 : https://jsfiddle.net/
 - source code : https://github.com/funnycom/html5-css3
 - 숙제 1 : https://jsfiddle.net/charleslee/s1tzyLp5/
+- 숙제 2 : 아직 못 품
+'''
+
+
+프로젝트 2: 벚꽃 시즌 안내 페이지 만들기
+
+이제까지 배운 내용으로는 웹 페이지를 더 다양한 효과들을 주어 꾸밀 수 있습니다. 이를 바탕으로 올해 벚꽃 시즌에 관한 정보를 제공해주는 페이지를 만들어 봅니다.
+
+본 프로젝트에서는 다음과 같은 교재의 내용을 주로 다루게 됩니다. (다른 강의도 충분히 참고해주세요!)
+•강의 08 CSS 박스모델
+
+•강의 09 CSS 레이아웃
+
+
+•강의 12. 다재다능한 CSS3 선택자
+
+
+다음 제공해드리는 HTML 및 CSS 파일을 기반으로 하여, 프로젝트를 완성해보세요.
+•파일 다운로드: http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000140+type@asset+block@project2.zip
+
+
+JSFiddle용 이미지 링크(필요시 활용):
+http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@seoul.PNG
+http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@cherryblossom.png
+http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@incheon.PNG
+http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@map.PNG
+http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@jeju.PNG
+http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@busan.PNG
+http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@jeonju.png
+http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@deagu.png
+
+폰트:
+http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@IropkeBatangM.woff
+
+
+
+
+요구사항
+1.테두리 및 배경 스타일 적용하기
+• h3 요소에 다음의 스타일을 적용해봅니다
+•배경색: palevioletred
+•글씨 색: white
+•왼쪽 위/아래 코너의 곡률: 10px
+•오른쪽 위/아래 코너의 곡률: 40px
+
+2. 다단 레이아웃 만들기
+•아이디가 "intro"인 section 요소를 두 단으로 만들어봅니다.
+•두 단 사이에 구분은 1px의 검은색 실선으로 합니다.
+
+3. 선택자 사용해보기
+•"지역별 명소" (class 명이 "spot"인 div 요소 내) 부분에 다수의 radio button (input 요소의 유형)이 있습니다. 
+해당 input 요소의 "value" 값에 따라 화면 배치를 다르게 해봅니다.
+•"seoul"인 경우, position: absolute에서 top은 10px, left는 10px
+•"incheon"인 경우, position: absolute에서 top은 10px, left는 40px
+•"jeonju"인 경우, position: absolute에서 top은 10px, left는 70px
+•"deagu"인 경우, position: absolute에서 top은 10px, left는 100px
+•"busan"인 경우, position: absolute에서 top은 10px, left는 130px
+•"jeju"인 경우, position: absolute에서 top은 10px, left는 160px
+
+4. 선택자 사용해보기 (심화)
+
+•input 요소(radio button)이 선택됨에 따라 해당 요소의 value 값과 동일한 이름의 이미지가 화면에 보여지도록 합니다.
+
+•참고: 선택된 input 요소는 "input:checked" 선택자를 통해 알 수 있습니다.
+'''
+
 - 숙제 3 : https://jsfiddle.net/charleslee/ch14a95t/
 '''
 
