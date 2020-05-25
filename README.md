@@ -4,7 +4,7 @@
 - 실행 : https://jsfiddle.net/
 - source code : https://github.com/funnycom/html5-css3
 - 숙제 1 : https://jsfiddle.net/charleslee/s1tzyLp5/
-- 숙제 2 : 아직 못 품
+- 숙제 2 : 선택자 문제는 풀지 못함. : https://jsfiddle.net/charleslee/pxmswc12/
 
 ```text
 프로젝트 2: 벚꽃 시즌 안내 페이지 만들기
