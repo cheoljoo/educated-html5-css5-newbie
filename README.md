@@ -69,6 +69,10 @@ http://edxlearning.lge.com/asset-v1:LGE+J00002707+P00000239+type@asset+block@Iro
 •참고: 선택된 input 요소는 "input:checked" 선택자를 통해 알 수 있습니다.
 ```
 
+```
+고생 많이하셨습니다. 고민의 흔적이 많이 보이네요. style.css 기준으로 하나씩 설명드릴게요. 전체 코드는 아래에 정리해두었으니 참고하시기 바랍니다. https://jsfiddle.net/leekyuho/kp45byzL/ 1. spotImg의 코드를 수정하셨는데, 별도로 수정하실 필요가 없는 코드입니다. - 해당 코드는 이미지를 숨겨놨다가, input이 checked가 되면 표기하기 위한 코드입니다. - 작성하신 코드를 보면 top과 left의 위치가 수정되어있고, display:none;도 삭제되어 있었습니다. 이로 인해 전반적인 레이아웃이 깨져있었습니다. 원래상태로 되돌려놓았습니다. 2. 3번 요구사항의 경우, input의 value에 따라 radio button의 위치를 지정하는내용입니다. 아래 코드 참조하세요. 아래 코드에서는 value의 지역명과 left값을 변경해주셔야합니다. .spot input[value="seoul"] {top: 10px;left: 160px;position: absolute;display: inline-block; } 3. 4번 요구사항의 경우, spotImg에서 display:none;으로 지정해주었던 것을 checked가 되면 보여지게 하는 내용입니다. 아래 코드만 넣어주시면 됩니다. .spot input:checked+.spotImg {display: block; } 점수는 3번 일부 구현, 4번 미구현한 점을 감안하여 책정하였습니다. 
+```
+
 - 숙제 3 : https://jsfiddle.net/charleslee/ch14a95t/
 
 ```text
